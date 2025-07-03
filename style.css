@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Header base styles (mobile first) === */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem; /* 12px 16px */
+  height: 3.75rem; /* 60px */
+  background-color: #ffffff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05); /* 2px 4px */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* === Logo styling === */
+.logo {
+  height: 2rem; /* 32px */
+  max-width: 7.5rem; /* 120px */
+  object-fit: contain;
+}
+
+/* === Menu icon button === */
+.menu-btn {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+/* Menu icon image */
+.menu-icon {
+  width: 1.75rem; /* 28px */
+  height: 1.75rem;
+}
